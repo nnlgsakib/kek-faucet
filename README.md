@@ -1,4 +1,4 @@
-# eth-faucet
+# kek-faucet
 
 [![Build](https://github.com/chainflag/eth-faucet/workflows/Go/badge.svg)](https://github.com/chainflag/eth-faucet/actions?query=workflow%3AGo)
 [![Release](https://img.shields.io/github/v/release/chainflag/eth-faucet)](https://github.com/chainflag/eth-faucet/releases)
@@ -6,13 +6,13 @@
 [![Go](https://img.shields.io/github/go-mod/go-version/chainflag/eth-faucet)](https://go.dev/)
 [![License](https://img.shields.io/github/license/chainflag/eth-faucet)](https://github.com/chainflag/eth-faucet/blob/main/LICENSE)
 
-The faucet is a web application with the goal of distributing small amounts of Ether in private and test networks.
+This faucet is a web application with the goal of distributing small amounts of KEK in private and test networks.
 
 ## Features
 
 * Allow to configure the funding account via private key or keystore
 * Asynchronous processing Txs to achieve parallel execution of user requests
-* Rate limiting by ETH address and IP address as a precaution against spam
+* Rate limiting by KEK address and IP address as a precaution against spam
 * Prevent X-Forwarded-For spoofing by specifying the count of reverse proxies
 
 ## Get started
@@ -26,8 +26,8 @@ The faucet is a web application with the goal of distributing small amounts of E
 
 1. Clone the repository and navigate to the app’s directory
 ```bash
-git clone https://github.com/chainflag/eth-faucet.git
-cd eth-faucet
+git clone https://github.com/lol-chain/kek-faucet.git
+cd kek-faucet
 ```
 
 2. Bundle Frontend web with Vite
