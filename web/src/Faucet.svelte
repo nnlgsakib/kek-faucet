@@ -119,7 +119,7 @@
 </main>
 
 <style>
-  body {
+  main {
     overflow: hidden; /* Hide scrollbars */
   }
   .hero.is-info {
