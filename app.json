@@ -1,6 +1,6 @@
 {
-  "name": "eth-faucet",
-  "repository": "https://github.com/chainflag/eth-faucet",
+  "name": "kek-faucet",
+  "repository": "https://github.com/lol-chain/kek-faucet",
   "env": {
     "WEB3_PROVIDER": {
       "description": "JSON-RPC endpoint uri to an Ethereum node",
