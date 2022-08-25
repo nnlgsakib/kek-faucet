@@ -9,6 +9,7 @@
     account: '0x0000000000000000000000000000000000000000',
     network: 'testnet',
     payout: 0.5,
+    distribution: 0.5,
   };
 
   $: document.title = `KEK ${capitalize(faucetInfo.network)} Faucet`;
@@ -88,7 +89,7 @@
       <div class="container has-text-centered">
         <div class="column is-6 is-offset-3">
           <h1 class="title">
-            Receive {faucetInfo.payout} KEK per request
+            Receive {faucetInfo.distribution} KEK per request
           </h1>
           <img alt="PEPE Codes" src="code.gif" width="33%" height="33%" />
           <h2 class="subtitle">
