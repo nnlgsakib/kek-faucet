@@ -12,13 +12,13 @@ import (
 
 	"github.com/ethereum/go-ethereum/crypto"
 
-	"github.com/chainflag/eth-faucet/internal/chain"
-	"github.com/chainflag/eth-faucet/internal/server"
+	"github.com/lol-chain/kek-faucet/internal/chain"
+	"github.com/lol-chain/kek-faucet/internal/server"
 )
 
 var (
 	appVersion = "v1.1.0"
-	chainIDMap = map[string]int{"ropsten": 3, "rinkeby": 4, "goerli": 5, "kovan": 42}
+	chainIDMap = map[string]int{"kekchain": 420666, "ropsten": 3, "rinkeby": 4, "goerli": 5, "kovan": 42}
 
 	httpPortFlag = flag.Int("httpport", 8080, "Listener port to serve HTTP connection")
 	proxyCntFlag = flag.Int("proxycount", 0, "Count of reverse proxies in front of the server")
