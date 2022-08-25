@@ -88,7 +88,7 @@
           <h1 class="title">
             Receive {faucetInfo.payout} KEK per request
           </h1>
-          <img src="code.gif" />
+          <img alt="PEPE Codes" src="code.gif" width="50%" height="50%" />
           <h2 class="subtitle">
             Serving from {faucetInfo.account}
           </h2>
