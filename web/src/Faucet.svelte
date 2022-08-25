@@ -68,7 +68,7 @@
               <span class="navbar-item">
                 <a
                   class="button is-white is-outlined"
-                  href="https://github.com/lol-chain/eth-faucet"
+                  href="https://github.com/lol-chain/kek-faucet"
                 >
                   <span class="icon">
                     <i class="fa fa-github" />
@@ -88,6 +88,7 @@
           <h1 class="title">
             Receive {faucetInfo.payout} KEK per request
           </h1>
+          <img src="code.gif" />
           <h2 class="subtitle">
             Serving from {faucetInfo.account}
           </h2>
