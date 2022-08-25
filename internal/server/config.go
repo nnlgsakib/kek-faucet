@@ -14,7 +14,7 @@ type Config struct {
 }
 
 func NewConfig(network string, httpPort, interval, payout, proxyCount, queueCap int) *Config {
-	ether := new(big.Int).Exp(big.NewInt(10), big.NewInt(18), nil)
+	ether := new(big.Int).Exp(big.NewInt(10), big.NewInt(17), nil)
 	return &Config{
 		network:    network,
 		httpPort:   httpPort,
