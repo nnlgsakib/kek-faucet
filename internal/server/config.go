@@ -1,5 +1,9 @@
 package server
 
+import (
+	"math/big"
+)
+
 type Config struct {
 	network    string
 	httpPort   int
