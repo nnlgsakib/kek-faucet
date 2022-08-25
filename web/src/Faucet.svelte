@@ -3,13 +3,13 @@
   import { getAddress } from '@ethersproject/address';
   import { formatEther } from '@ethersproject/units';
   import { setDefaults as setToast, toast } from 'bulma-toast';
-
+  
+  let distribution = 0.5;
   let address = null;
   let faucetInfo = {
     account: '0x0000000000000000000000000000000000000000',
     network: 'testnet',
-    payout: 0.5,
-    distribution: 0.5,
+    payout: 0.5
   };
 
   $: document.title = `KEK ${capitalize(faucetInfo.network)} Faucet`;
@@ -89,7 +89,7 @@
       <div class="container has-text-centered">
         <div class="column is-6 is-offset-3">
           <h1 class="title">
-            Receive {faucetInfo.distribution} KEK per request
+            Receive {distribution} KEK per request
           </h1>
           <img alt="PEPE Codes" src="code.gif" width="33%" height="33%" />
           <h2 class="subtitle">
