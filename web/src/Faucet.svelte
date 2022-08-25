@@ -1,6 +1,7 @@
 <script>
   import { onMount } from 'svelte';
   import { getAddress } from '@ethersproject/address';
+  import { formatEther } from '@ethersproject/units';
   import { setDefaults as setToast, toast } from 'bulma-toast';
 
   let address = null;
@@ -15,6 +16,7 @@
   onMount(async () => {
     const res = await fetch('/api/info');
     faucetInfo = await res.json();
+    faucetInfo.payout = parseInt(formatEther(faucetInfo.payout));
   });
 
   setToast({
