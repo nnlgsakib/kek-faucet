@@ -7,7 +7,7 @@
   let faucetInfo = {
     account: '0x0000000000000000000000000000000000000000',
     network: 'testnet',
-    payout: 1,
+    payout: 0.5,
   };
 
   $: document.title = `KEK ${capitalize(faucetInfo.network)} Faucet`;
