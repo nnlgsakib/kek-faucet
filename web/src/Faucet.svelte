@@ -91,7 +91,7 @@
           <h1 class="title">
             Receive {distribution} tMIND per request
           </h1>
-          <img alt="PEPE Codes" src="code.gif" width="33%" height="33%" />
+          <img alt="PEPEidth=
           <h2 class="subtitle">
             Serving from {faucetInfo.account}
           </h2>
