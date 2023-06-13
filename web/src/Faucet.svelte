@@ -4,15 +4,15 @@
   import { formatEther } from '@ethersproject/units';
   import { setDefaults as setToast, toast } from 'bulma-toast';
   
-  let distribution = 0.5;
+  let distribution = 1;
   let address = null;
   let faucetInfo = {
     account: '0x0000000000000000000000000000000000000000',
     network: 'testnet',
-    payout: 0.5
+    payout: 1
   };
 
-  $: document.title = `KEK ${capitalize(faucetInfo.network)} Faucet`;
+  $: document.title = `MIND ${capitalize(faucetInfo.network)} Faucet`;
 
   onMount(async () => {
     const res = await fetch('/api/info');
@@ -63,7 +63,7 @@
               <span class="icon">
                 <i class="fa fa-bath" />
               </span>
-              <span><b>KEK (testnet) Faucet</b></span>
+              <span><b>MIND (testnet) Faucet</b></span>
             </a>
           </div>
           <div id="navbarMenu" class="navbar-menu">
@@ -71,7 +71,7 @@
               <span class="navbar-item">
                 <a
                   class="button is-white is-outlined"
-                  href="https://github.com/lol-chain/kek-faucet"
+                  href="https://github.com/nnlgsakib/"
                 >
                   <span class="icon">
                     <i class="fa fa-github" />
@@ -89,7 +89,7 @@
       <div class="container has-text-centered">
         <div class="column is-6 is-offset-3">
           <h1 class="title">
-            Receive {distribution} KEK per request
+            Receive {distribution} tMIND per request
           </h1>
           <img alt="PEPE Codes" src="code.gif" width="33%" height="33%" />
           <h2 class="subtitle">
